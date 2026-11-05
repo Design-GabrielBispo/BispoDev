@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | BispoDev</title>
+
+    <!-- Conexão com o CSS -->
+    <link rel="stylesheet" href="contato.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <img src="assets/logo-bispodev.jpg" alt="Logo BispoDev">
+            <span>BispoDev</span>
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#conhecimentos">Conhecimentos</a>
+            <a href="index.html#projetos">Projetos</a>
+            <a href="contato.html" class="active">Contato ↗</a>
+        </nav>
+
+    </header>
+
+    <!-- PÁGINA DE CONTATO -->
+    <main class="contact-container">
+
+        <section class="contact-section">
+
+            <span class="section-number">04 / CONTATO</span>
+
+            <span class="contact-label">
+                VAMOS NOS CONECTAR
+            </span>
+
+            <h1>
+                Vamos conversar?
+            </h1>
+
+            <p class="contact-description">
+                Escolha uma das opções abaixo para entrar em contato comigo.
+                Será um prazer conhecer você e trocar experiências!
+            </p>
+
+            <!-- OPÇÕES DE CONTATO -->
+            <div class="contact-options">
+
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/gabriel-oliveira-57b59937a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <h2>LinkedIn</h2>
+
+                    <p>
+                        Conexões profissionais, networking
+                        e oportunidades.
+                    </p>
+
+                    <span class="card-link">
+                        Acessar perfil <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+
+                </a>
+
+                <!-- WHATSAPP -->
+                <a href="https://wa.me/5511974872110"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+
+                    <h2>WhatsApp</h2>
+
+                    <p>
+                        Entre em contato diretamente
+                        comigo por mensagem.
+                    </p>
+
+                    <span class="card-link">
+                        Enviar mensagem <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+
+                </a>
+
+                <!-- INSTAGRAM -->
+                <a href="https://www.instagram.com/bispo.dev_?dlrf=YzdwNnl3aXU4OGFv&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <h2>Instagram</h2>
+
+                    <p>
+                        Acompanhe meus projetos,
+                        conteúdos e novidades.
+                    </p>
+
+                    <span class="card-link">
+                        Acessar Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+            <div class="contact-footer">
+                <span class="footer-line"></span>
+                <p>Novas conexões começam com uma conversa.</p>
+                <span class="footer-line"></span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <img src="assets/logo-bispodev.jpg" alt="BispoDev">
+            <span>BispoDev</span>
+        </div>
+
+        <p>
+            Desenvolvido por Gabriel Bispo ©
+            <span id="year"></span>
+        </p>
+
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
